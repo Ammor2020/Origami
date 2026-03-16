@@ -80,15 +80,41 @@ body{
    align-items: center;
    margin: 0;
  }
- nav li a{
+ #links li a{
    display: block;
-   color: blue;
+   color: rgb(255, 255, 255);
    min-width: 80px;
    padding: 5px;
    margin: 0 5px; 
    /* background-color: aqua; */
    text-align: center;
    text-decoration: none;
+   border:1px solid #362376;
+  border-radius: 10px;
+  
+ }
+ /* #links li a :hover{
+  background-color: #6c2aee;
+ color: #fff;
+ border-color: #6c2aee;
+ transition: 0.3s;
+ } */
+ nav li a{
+   display: block;
+   color: rgb(255, 255, 255);
+   min-width: 80px;
+   padding: 5px;
+   margin: 0 5px; 
+   /* background-color: aqua; */
+   text-align: center;
+   text-decoration: none;
+   
+ }
+ #logout:hover ,#links li a:hover{
+ background-color: #6c2aee;
+ color: #fff;
+ border-color: #6c2aee;
+ transition: 0.3s;
  }
  .search-section{
   margin-top: 30px;
@@ -107,14 +133,22 @@ body{
  .search-container button{
    height: 38px;
   padding: 0 18px;
-  border: none;
-  background-color: #333;
+  /* border: none; */
+  /* background-color: #333; */
+  background-color: #6c2aee;
+    background-color: #948df1;
   color: white;
-  border-radius: 6px;
+  /* border-radius: 6px; */
   cursor: pointer;
+  border:1px solid #362376;
+  border-radius: 10px;
  }
  .search-container button:hover{
    background-color: #555;
+   background-color: #6c2aee;
+ color: #fff;
+ border-color: #6c2aee;
+ transition: 0.3s;
  }
  /* Form design */
  .section-form{/*hero image */
@@ -190,6 +224,7 @@ body{
   cursor: pointer;
   font-size: 18px;
   transition: 0.3s;
+  
 
 
 }
@@ -207,10 +242,11 @@ body{
 #logout{
   color: white;
   margin-left: 10px;
+  border:1px solid #362376;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-#logout:hover{
-  color: #ff6b6b;
-}
+
  .products{
   width: 100%;
   margin: 40px 0 10px;
@@ -408,6 +444,9 @@ body{
 .remove-from-cart:hover{
   /* background-color: rgba(186, 1, 1, 0.677); */
   background: #c0392b;
+}
+.divide-line{
+  color: #5148d8;
 }
 /* cartpage */
 .quantity-box{
