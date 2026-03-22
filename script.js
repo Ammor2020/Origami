@@ -111,7 +111,7 @@ let products = [
     id:10,
     title:"Vermouth",
     description: "Black Organization",
-    price: "$500" ,
+    price: "500" ,
     imageUrl :"image/item14.jpg"
 }
 ]
